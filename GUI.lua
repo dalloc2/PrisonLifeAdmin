@@ -2,6 +2,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
+local UIStroke = Instance.new("UIStroke") --gui to lua doesnt do this shit??
 local Input = Instance.new("TextBox")
 ScreenGui.Parent = game.CoreGui
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -15,6 +16,9 @@ Frame.Size = UDim2.new(0, 559, 0, 49)
 Frame.Draggable = true
 
 UICorner.Parent = Frame
+UIStroke.Parent = Frame
+UIStroke.Thickness = 3
+UIStroke.Color = Color3.fromRGB(97,97,97)
 
 Input.Name = "Input"
 Input.Parent = Frame
