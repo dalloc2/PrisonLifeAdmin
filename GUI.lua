@@ -92,6 +92,7 @@ Label.Font = Enum.Font.Gotham
 Label.Text = ";cmds | lol, lol | Rank"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextSize = 14.000
+Label.TextScaled = true
 
 ScrollLayout.Name = "ScrollLayout"
 ScrollLayout.Parent = ScrollingFrame
@@ -106,6 +107,7 @@ Button.Font = Enum.Font.Gotham
 Button.Text = "OnlyTwentyCharacters"
 Button.TextColor3 = Color3.fromRGB(255, 255, 255)
 Button.TextSize = 14.000
+Button.TextScaled = true
 
 ListLayout.Name = "ListLayout"
 ListLayout.Parent = List
