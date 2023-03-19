@@ -97,7 +97,7 @@ Label.TextScaled = true
 ScrollLayout.Name = "ScrollLayout"
 ScrollLayout.Parent = ScrollingFrame
 ScrollLayout.SortOrder = Enum.SortOrder.LayoutOrder
-ScrollLayout.Padding = UDim.new(0,9)
+ScrollLayout.Padding = UDim.new(0,11)
 
 Button.Name = "Button"
 Button.Parent = nil
