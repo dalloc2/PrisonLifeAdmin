@@ -150,10 +150,12 @@ return {Input=Input, MakeList=function(Name, Visible)
 		B.Text = Text
 		B.MouseButton1Click:Connect(Func)
 		B.Parent = ListL.ScrollingFrame
+		ListL.ScrollingFrame.CanvasSize = UDim2.new(0,0,ListL.ScrollingFrame.CanvasSize.Y.Scale+0.05, 0)
 	end,MakeLabel=function(Text)
 		local L = Label:Clone()
 		L.Text = Text
 		L.Parent = ListL.ScrollingFrame
+		ListL.ScrollingFrame.CanvasSize = UDim2.new(0,0,ListL.ScrollingFrame.CanvasSize.Y.Scale+0.05, 0)
 	end, DestroyList=function()
 		ListL:Destroy()
 	end,SetVisible=function(B)
