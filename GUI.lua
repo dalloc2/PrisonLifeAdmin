@@ -153,5 +153,7 @@ return {Input=Input, MakeList=function(Name, Visible)
 		L.Parent = ListL.ScrollingFrame
 	end, DestroyList=function()
 		ListL:Destroy()
-	end,}
+	end,SetVisible=function(B)
+		ListL.Visible = B	
+	end}
 end,}
